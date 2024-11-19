@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Allotment</title>
+    <link rel="stylesheet" href="index.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1>Assign Task for the Month</h1>
+        <form id="taskForm">
+            <label for="task">Task:</label>
+            <input type="text" id="task" placeholder="Enter the task" required>
+            
+            <label for="month">Select Month:</label>
+            <select id="month" required>
+                <option value="" disabled selected>Select a month</option>
+            </select>
+            
+            <label for="year">Select Year:</label>
+            <select id="year" required>
+                <option value="" disabled selected>Select a year</option>
+            </select>
+            
+            <button type="submit">Generate Schedule</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
